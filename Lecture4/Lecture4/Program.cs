@@ -10,6 +10,11 @@ namespace Lecture4
     {
         static void Main(string[] args)
         {
+            string myPlayerName;
+            Console.WriteLine("Enter Player Name");
+            myPlayerName = Console.ReadLine();
+            Console.WriteLine("Welcome {0}, to our game", myPlayerName);
+            Console.Read();
         }
     }
 }
